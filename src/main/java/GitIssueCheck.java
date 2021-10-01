@@ -3,15 +3,9 @@ import org.kohsuke.github.*;
 import java.io.IOException;
 import java.util.*;
 
-public class App {
+public class GitIssueCheck {
     private final String token = "personal_github_token";
     private GitHub github;
-
-    public static void main(String[] args) throws IOException {
-        App app = new App();
-
-        app.run();
-    }
 
     private void run() throws IOException{
         connectGitApi();
