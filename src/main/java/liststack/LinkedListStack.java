@@ -38,4 +38,9 @@ public class LinkedListStack implements Stack {
     public boolean isEmpty() {
         return (this.top == -1);
     }
+
+    @Override
+    public boolean isFull() {
+        return false;
+    }
 }
