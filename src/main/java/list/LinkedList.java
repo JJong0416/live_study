@@ -1,6 +1,7 @@
 package list;
 
 public interface LinkedList {
+
     LinkedNode add(LinkedNode head, LinkedNode nodeToAdd, int position);
 
     LinkedNode remove (LinkedNode head, int positionToRemove);
