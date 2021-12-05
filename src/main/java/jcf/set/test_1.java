@@ -10,6 +10,6 @@ public class test_1 {
         List<Integer> lst1 = new ArrayList<Integer>();
         lst1.add(1);
 
-        lst1.get(0)
+        lst1.get(0);
     }
 }
