@@ -55,7 +55,6 @@ public class LinkedNode implements LinkedList{
         node.next = deleteToNode.next;
         deleteToNode.next = null;
         return deleteToNode;
-
     }
 
     @Override

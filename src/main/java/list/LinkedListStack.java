@@ -1,6 +1,5 @@
-package liststack;
+package list;
 
-import list.LinkedNode;
 import stack.Stack;
 
 public class LinkedListStack implements Stack {

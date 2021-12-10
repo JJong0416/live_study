@@ -1,5 +1,5 @@
 import list.LinkedNode;
-import liststack.LinkedListStack;
+import list.LinkedListStack;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
