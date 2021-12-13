@@ -9,12 +9,11 @@ public class Merge {
     public static void main(String[] args) {
         int[] arr = {4, 3, 9, 2, 7, 1, 6, 5, 8};
         sorted = new int[arr.length];
-
-        mergeSort(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
+//        mergeSort(arr, 0, arr.length - 1);
+//        System.out.println(Arrays.toString(arr));
     }
 
-    private static void mergeSort(int[] arr, int start, int end){ // 쪼개기
+    public void mergeSort(int[] arr, int start, int end){ // 쪼개기
         if(start < end) {
             int mid = (start + end) / 2;
             mergeSort(arr, start, mid);
@@ -23,7 +22,7 @@ public class Merge {
         }
     }
 
-    private static void merge(int[] arr, int start, int mid, int end){
+    public void merge(int[] arr, int start, int mid, int end){
         int i, j, k, l;
         i = start; // 시작 임시 인덱스 값
         j = mid + 1; // 중간 임시 인덱스 값
