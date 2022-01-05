@@ -1,7 +1,5 @@
 package annotation;
 
-import java.lang.annotation.Target;
-
 /**
  * javaDoc Test
  */
