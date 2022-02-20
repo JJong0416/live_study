@@ -1,7 +1,6 @@
 package generics;
 
-import java.util.ArrayList;
-import java.util.List;
+import generics.box.GenericBBox;
 
 class Box<E> {
 
@@ -19,8 +18,8 @@ class Box<E> {
 class genericsTest {
     public static void main(String[] args) {
 
-        Box<String> a = new Box<String>();
-        Box<Integer> b = new Box<Integer>();
+        GenericBBox<String> a = new GenericBBox<String>();
+        GenericBBox<Integer> b = new GenericBBox<Integer>();
 
         a.setBox("10");
         b.setBox(10);
