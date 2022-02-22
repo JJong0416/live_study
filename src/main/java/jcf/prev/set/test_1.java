@@ -1,9 +1,7 @@
-package jcf.set;
+package jcf.prev.set;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class test_1 {
     public static void main(String[] args) {

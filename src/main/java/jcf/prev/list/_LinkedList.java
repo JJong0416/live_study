@@ -1,4 +1,4 @@
-package jcf.list;
+package jcf.prev.list;
 
 import java.util.LinkedList;
 
