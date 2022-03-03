@@ -2,22 +2,26 @@ package generics;
 
 import generics.box.GenericBBox;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Vector;
+
 class Box<E> {
 
-    private E element;	// 제네릭 타입 변수
+    private E element;    // 제네릭 타입 변수
 
-    void setBox(E element) {	// 제네릭 파라미터 메소드
+    void setBox(E element) {    // 제네릭 파라미터 메소드
         this.element = element;
     }
 
-    E getBox() {	// 제네릭 타입 반환 메소드
+    E getBox() {    // 제네릭 타입 반환 메소드
         return element;
     }
 }
 
 class genericsTest {
     public static void main(String[] args) {
-
         GenericBBox<String> a = new GenericBBox<String>();
         GenericBBox<Integer> b = new GenericBBox<Integer>();
 
@@ -32,6 +36,8 @@ class genericsTest {
         System.out.println("b data : " + b.getBox());
         // 반환된 변수의 타입 출력
         System.out.println("b E Type : " + b.getBox().getClass().getName());
+
+
     }
 }
 /* 출력
